@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Register Page</title>
+</head>
+<body bgcolor="green" text="white">
+	<center>
+		<h1>Ineuron Technology private limited...</h1>
+	</center>
+	<form method="post" action="./reg">
+		<table align='center'>
+			<tr>
+				<th>Name</th>
+				<td>
+					<input type='text' name='username' />
+				</td>
+			</tr>
+			<tr>
+				<th>Conatct Number</th>
+				<td>
+					<input type='text' name='contactnumber' />
+				</td>
+			</tr>
+			<tr>
+				<th>Email ID</th>
+				<td>
+					<input type='text' name='emailid' />
+				</td>
+			</tr>
+			<tr>
+				<th>Enter course Details</th>
+				<td>
+					<select name='course' multiple="multiple">
+						<option value='corejava'>Core Java</option>
+						<option value='advancedjava'>Advance Java</option>
+						<option value='hibernate'>Hibernate</option>
+						<option value='spring'>Spring</option>
+						<option value='microservices'>Micro Services</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<th></th>
+				<td>
+					<input type='submit' value='register'/>
+				</td>
+			</tr>
+		</table>
+	</form>
+</body>
+
+</html>
