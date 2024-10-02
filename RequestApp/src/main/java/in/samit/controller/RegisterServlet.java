@@ -34,7 +34,7 @@ public class RegisterServlet extends HttpServlet {
 		System.out.println("Request object implementation hashcode is :: "+request.hashCode());
 		System.out.println("Response object implementation class is :: "+response.getClass().getName());
 		System.out.println("Response object implementation hashcode is :: "+response.hashCode());
-		
+		  
 		//getting the parameter from the client using HTML page name attribute.
 		String username=request.getParameter("username");
 		String contactnumber=request.getParameter("contactnumber");
