@@ -1,0 +1,6 @@
+--set path=C:\samit_workspace\jdk-11.0.23_windows-x64_bin\jdk-11.0.23\bin
+
+To set the jar file in any folder for that things you have to execute the below command..
+--set classpath=C:\Program Files\Apache Software Foundation\Tomcat 9.0\lib\servlet-api.jar;.;
+
+--javap javax.servlet.GenericServlet
