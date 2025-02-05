@@ -12,7 +12,7 @@
 		<property name="hibernate.show_sql">true</property>
 		<property name="hibernate.format_sql">true</property>
 		<property name="hibernate.hbm2ddl.auto">create</property>
-		<mapping resource="in/ineuron/mapping/Employee.hbm.xml"/>
+		<mapping class="in.ineuron.model.Employee"/>
 	</session-factory>
 </hibernate-configuration>
 

@@ -4,7 +4,7 @@
 "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 <hibernate-mapping>
 	<class name="in.ineuron.Model.Employee" table="empTab">
-		<id name="empId" type="java.lang.Integer" column="eid" >
+		<id name="empId" type="java.lang.String" column="eid" >
 			<generator class="in.ineuron.generator.RandomGenerator"/>
 		</id>
 		<property name="empName" type="java.lang.String" length="20"
